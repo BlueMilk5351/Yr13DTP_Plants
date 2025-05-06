@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat-Alternates|Oregano" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page - NZ Plants</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="logo16.png">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <ul class="nav">
+        <li><a href="l-about-nz.html">About New Zealand</a></li>
+        <li><a href="k-about-plants.html">About Plants</a></li>
+        <li><a href="j-calendar.html">Calendar</a></li>
+        <li style="float:right"><a class="active" href="index.html">Main</a></li>
+        <img src="logo512.png" alt="logo" height="42" width="42" style="float:left;margin-left: 10px;">
+        <p style="float: left;color: white;font-size: 14px;";>NZ Plants</p>
+    </ul>
+
+    <div>
+    <!--intro writing-->
+        <h1>Welcome</h1>
+        <p style="margin: 10px;">This is a basic plant calendar to show what plants can grow along with information about each plant</p>
+        <!-- <h1 class="animate__animated animate__shakeX">(future) Button</h1> -->
+    </div>
+
+    <div class="container" style="justify-content: center;">
+        <div class="item" style="max-width: 200px;">
+            <button class="buttonprettypartone buttonpretty" onclick="document.location='j-calendar.html'"><span>Calendar</span></button>
+        </div>
+    </div>
+
+    <div>
+    <!-- talking about the types of plants -->
+    <h1>What are the main type of plants grown?</h1>
+    <h2 id="blue-line"></h2>
+    <div class="container"> 
+
+        <div class="item">
+            <img src="vege.webp" alt="vege" width="100" height="100">
+            <h2>Vegetables</h2>
+            <p>Edible parts of some plants like apples and strawberries.</p>
+        </div>
+        
+        <div class="item">
+            <img src="Fruits-square.jpg" alt="fruits" width="100" height="100">
+            <h2>Fruits</h2>
+            <p>Edible plants like tomatoes, potatoes and carrots.</p>
+        </div>
+        <div class="item">
+            <img src="Flowers-square.jpg" alt="flowersquare" width="100" height="100">
+            <h2>Flowers</h2>
+            <p>Plants that produce an inedible flower when blooming.</p>
+        </div>
+    </div>
+    <div class="container" style="justify-content: space-evenly;">
+        <div class="item" style="max-width: 150px;">
+            <button class="buttonprettypartone buttonpretty" onclick="document.location='k-about-plants.html'" style="width: 150px;">
+                <span>About Plants</span>
+            </button>
+        </div>
+        <div class="item" style="max-width: 150px;">
+            <button class="buttonprettypartone buttonpretty" onclick="document.location='l-about-nz.html'" style="width: 150px;">
+                <span>About New Zealand</span>
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="item">
+            <h2>
+                New to growing?
+            </h2>
+            <p style="max-width: 300px;">
+                There are many different things to consider when growing plants including: water, type, weather, conditions, etc.
+            </p>
+        </div>
+        <div class="item">
+            <h2>Plants</h2>
+            <p style="max-width: 300px;">
+                There are lots of plants you can grow, vegetables, fruit or flowers are popular and each has its own benefits to grow.
+            </p>
+        </div>
+        <div class="item">
+            <h2>New Zealand</h2>
+            <p style="max-width: 300px;">
+                Each plant has conditions it can grow in, some plants cannot grow in some areas. You have to select plants that can grow in NZ.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--Image for the nav bar/logo found here: "https://www.flaticon.com/free-icons/leaf" title="leaf icons" Leaf icons created by Freepik - Flaticon-->
